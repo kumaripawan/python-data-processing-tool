@@ -13,7 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
+
     - name: Set up Python 3.x
       uses: actions/setup-python@v3
       with:
@@ -27,5 +29,4 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run tests
-      run: |
-        pytest
+      run: pytest
