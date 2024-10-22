@@ -97,3 +97,5 @@ def example_usage():
 
 if __name__ == "__main__":
     example_usage()  # pragma: no cover
+
+    print("This is a test change to trigger GitHub Actions.")
