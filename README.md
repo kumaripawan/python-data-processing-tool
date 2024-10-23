@@ -50,13 +50,18 @@ python -m pytest
 └── .github/
     └── workflows/
         └── python-app.yml         # GitHub Actions configuration for CI
+
 7. Functions in Detail
 read_csv(file): Reads a CSV file and returns it as a Pandas DataFrame.
 clean_data(df): Cleans the DataFrame by removing rows with missing values.
 transform_data(df, transformation_type): Normalizes or standardizes the data based on the transformation_type parameter.
 compute_statistics(df): Returns the mean, median, and variance of the DataFrame columns.
+
 8. Continuous Integration (CI)
 This project uses GitHub Actions for continuous integration. Every push or pull request to the main branch triggers the CI pipeline, which automatically runs all unit tests. The CI configuration is located in .github/workflows/python-app.yml.
+
+9. Workflow Description
+This project utilizes GitHub Actions for automated testing. Each time changes are pushed to the main branch, tests run automatically to ensure code quality.
 
 9. Contributing
 Contributions are welcome. If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request. Ensure that all changes are covered with unit tests before submitting.
