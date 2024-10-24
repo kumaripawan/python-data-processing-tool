@@ -62,7 +62,7 @@ compute_statistics(df): Returns the mean, median, and variance of the DataFrame 
 This project uses GitHub Actions for continuous integration. Every push or pull request to the main branch triggers the CI pipeline, which automatically runs all unit tests. The CI configuration is located in .github/workflows/python-app.yml.
 
 9. Workflow Description
-This project utilizes GitHub Actions for automated testing. Each time changes are pushed to the main branch, tests run automatically to ensure code quality.
+This project utilizes GitHub Actions for automated testing. Each time changes are pushed to the main branch, tests run automatically to ensure the code quality.
 
 9. Contributing
 Contributions are welcome. If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request. Ensure that all changes are covered with unit tests before submitting.
